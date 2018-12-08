@@ -42,22 +42,12 @@ var config = {
   },
   advertising: {},
   source: {
-    dash: 'https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd',
-    hls: 'https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
-    progressive: 'https://bitmovin-a.akamaihd.net/content/MI201109210084_1/MI201109210084_mpeg-4_hd_high_1080p25_10mbits.mp4',
-    smooth: 'https://test.playready.microsoft.com/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/manifest',
-    poster: 'https://bitmovin-a.akamaihd.net/content/MI201109210084_1/poster.jpg'
+    dash: 'https://pe-ak-lp01a-9c9media.akamaized.net/live/TSNDigi9/p/dash/20000001/fe1a29c3a17ce406/manifest.mpd',
   },
-  drmSource: {
-    dash: 'https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd',
-    hls: 'https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/m3u8s/11331.m3u8',
-    smooth: 'https://test.playready.microsoft.com/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/manifest',
-    progressive: '',
-    drm: {
+      drm: {
       none: '',
-      widevine: 'https://widevine-proxy.appspot.com/proxy',
-      playready: 'https://playready.directtaps.net/pr/svc/rightsmanager.asmx?PlayRight=1&#038;ContentKey=EAtsIJQPd5pFiRUrV9Layw=='
-    }
+      widevine: 'https://license.9c9media.ca/widevine',
+          }
   },
   cast: {
     enable: true
